@@ -1,0 +1,122 @@
+@charset "utf-8";
+header{
+    height: 130px;
+    width: 100%;
+    background-color:#ffffff;
+    z-index:-1;
+    margin:5px;
+}
+header h1{
+    color:#753d3d;
+    font-size:15px;
+    margin-left:30px;
+    font-family:Yu mincho;
+}
+main h1{
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-family:Yu mincho;
+    font-size:300%;
+    margin:10px;
+}
+.first{
+    font-size:300%;
+    color:rgb(255, 255, 255);
+    font-family:Yu mincho;
+    margin-top:40px;
+}
+
+main{
+    height:100%;
+    float:center;
+}
+.img{
+    position:absolute;
+}
+#video-area{
+    position:fixed;
+    z-index:-1;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    overflow:hidden;
+}
+#video{
+    position:absolute;
+    z-index:-2;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:177.7777777vh;
+    height:56.25vw;
+    min-height:100%;
+    min-width:100%;
+}
+
+.big_box{
+    height:125%;
+    width:125%;
+    float:center;
+}
+
+ul.menu{
+    margin:5px;
+    padding:0px 0px 0px 5px;
+    background-color:#805353;
+    z-index:-1;
+    
+}
+
+ul.menu li{
+    width:600px;;
+    display:inline-block; /*横並びに配置*/
+    list-style-type:none;
+    position:relative;
+}
+
+ul.menu a{
+    background-color:#ffffff;
+    color:rgb(129, 65, 65);
+    line-height:40px;
+    text-align:center;
+    text-decoration:none;
+    font-weight:bold;
+    display:block;
+    z-index:1;
+    font-family:Yu mincho;
+    
+}
+
+ul.menu ul{
+    display:none;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    
+
+}
+
+ul.menu a:hover{
+    background-color:#dd7c7c;
+    color:#000000;
+    
+}
+.img{
+    max-width:720px;
+    max-height:720px;
+}
+
+main p{
+    font-family:Yu mincho;
+    text-align:center;
+    font-size:18px;
+}
+.footer-box{
+    height:125%;
+    width:125%;
+    text-align:center;
+}
+p{
+    color:white;
+}
